@@ -110,15 +110,15 @@ plot [0:5] [-10:10] h(x) w lines lt -1 title 'Sawtooth function', g(x) w points 
 set term x11
 
 # plot the 1st and 3rd column of a data file
-plot 'data.dat' u 1:3 w lines
+plot 'gaussian_data.dat' u 1:3 w lines
 pause(2)
 
 # plot the 2nd and 3rd column of a data file
-plot 'data.dat' u 2:3 w lines
+plot 'gaussian_data.dat' u 2:3 w lines
 pause(2)
 
 # plot both the 1st and 3rd column and the 2nd and 3rd column of the data file
-plot 'data.dat' u 1:3 w lines title 'x-component', 'data.dat' u 2:3 w points title 'y-component'
+plot 'gaussian_data.dat' u 1:3 w lines title 'x-component', 'gaussian_data.dat' u 2:3 w points title 'y-component'
 pause(2)
 
 ############ PLOTTING A DATA FILE USING SPLOT #############
@@ -160,5 +160,21 @@ set palette defined(\
 1       0.7059  0.0157  0.1490) 
 
 # plot the data
-splot 'data.dat' u 1:2:3 w pm3d title '2D Gaussian function'
+splot 'gaussian_data.dat' u 1:2:3 w pm3d title '2D Gaussian function'
+pause(2)
+
+############ FITTING A DATA FILE #############
+
+# Declare what I think the function looks like
+f(x) = a* exp (-b * x)* cos(c * x)
+
+# make an initial guess at the parameters
+a = 1; b = 1; c = 1;
+
+# fit the data set
+fit f(x) 'fitting_data.dat' u 1:2 via a,b,c
+
+# plot the results
+plot 'fitting_data.dat' with points pt 13 ps 2.5 title 'Data to be fit', f(x) w lines lt -1 title 'Function that fit the data'
 pause(-1)
+
