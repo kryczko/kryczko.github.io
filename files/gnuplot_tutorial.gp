@@ -1,3 +1,7 @@
+# To install gnuplot:
+#   linux (debian): sudo apt-get install gnuplot-x11
+#   mac (homebrew or macports): brew install gnuplot or sudo port install gnuplot
+
 # - The hashtags define comment lines by default in gnuplot; you can change the comment symbol using 
 
 set datafile commentschars "#%"
