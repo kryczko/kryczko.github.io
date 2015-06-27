@@ -1,1 +1,1 @@
-var x = document.getElementById("myBtn");
+console.log("Hello world!")
