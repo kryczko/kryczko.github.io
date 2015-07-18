@@ -1,4 +1,4 @@
-.page {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; }
+.page {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-bottom: 100px}
 
 .intro {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-left: 250px; margin-right: 250px; margin-bottom: 100px; font-family: Palatino; font-size: 22px; text-align: justify; color: #65A0CC;}
 
