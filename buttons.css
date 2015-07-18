@@ -1,8 +1,12 @@
 .page {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-bottom: 100px}
 
-.intro {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-left: 250px; margin-right: 250px; margin-bottom: 100px; font-family: Palatino; font-size: 22px; text-align: justify; color: #65A0CC;}
+.intro {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-left: 250px; margin-right: 250px; margin-bottom: 150px; font-family: Palatino; font-size: 22px; text-align: justify; color: #65A0CC;}
 
-.logo {width: 100%; margin-left: 0px; margin-right: 0px;}
+.logo {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-bottom: 100px}
+
+.logoimg {
+  width: 750px;
+}
 
 .btn {
   background: #65A0CC;
@@ -22,7 +26,29 @@
   color: #ffffff;
   font-size: 30px;
   padding: 10px 20px 10px 20px;
-  margin: 50px;
+  margin: 100px;
+  text-decoration: none;
+}
+
+.bigbtn {
+  background: #65A0CC;
+  background-image: -webkit-linear-gradient(top, #65A0CC, #8eb5d1);
+  background-image: -moz-linear-gradient(top, #65A0CC, #8eb5d1);
+  background-image: -ms-linear-gradient(top, #65A0CC, #8eb5d1);
+  background-image: -o-linear-gradient(top, #65A0CC, #8eb5d1);
+  background-image: linear-gradient(to bottom, #65A0CC, #8eb5d1);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 4px 2px 4px #474347;
+  -webkit-box-shadow: 5px 5px 6px #666666;
+  -moz-box-shadow: 5px 5px 6px #666666;
+  box-shadow: 5px 5px 6px #666666;
+  font-family: Palatino;
+  color: #ffffff;
+  font-size: 50px;
+  padding: 10px 20px 10px 20px;
+  margin: 100px;
   text-decoration: none;
 }
 
@@ -34,4 +60,17 @@
   background-image: -o-linear-gradient(top, #659fcc, #adc8db);
   background-image: linear-gradient(to bottom, #659fcc, #adc8db);
   text-decoration: none;
+}
+
+.full::after {
+  content: "";
+  background: url(twitter.png);
+  opacity: 0.45;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
+  z-index: -1;   
 }
