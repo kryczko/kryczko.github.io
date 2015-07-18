@@ -1,8 +1,10 @@
-.page {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-bottom: 100px}
+.page {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-bottom: 25px;}
 
-.intro {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-left: 250px; margin-right: 250px; margin-bottom: 150px; font-family: Palatino; font-size: 22px; text-align: justify; color: #65A0CC;}
+.intro {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-top: 100px; margin-bottom: 100px; margin-left: 5%; margin-right: 5%; font-family: Palatino; font-size: 22px; text-align: justify; color: #65A0CC;}
 
-.logo {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end; margin-bottom: 100px}
+.footer {position: absolute; bottom:-850px;font-family: Palatino; font-size: 20px; text-align: justify; color: #65A0CC; bottom: -850;}
+
+.logo {display: -webkit-box; display: flex; justify-content: center; -webkit-box-pack: center; align-items: flex-end; -webkit-box-align: end;}
 
 .logoimg {
   width: 750px;
@@ -24,31 +26,10 @@
   box-shadow: 5px 5px 6px #666666;
   font-family: Palatino;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
+  font-size: 2.5vw;
   padding: 10px 20px 10px 20px;
-  margin: 100px;
-  text-decoration: none;
-}
-
-.bigbtn {
-  background: #65A0CC;
-  background-image: -webkit-linear-gradient(top, #65A0CC, #8eb5d1);
-  background-image: -moz-linear-gradient(top, #65A0CC, #8eb5d1);
-  background-image: -ms-linear-gradient(top, #65A0CC, #8eb5d1);
-  background-image: -o-linear-gradient(top, #65A0CC, #8eb5d1);
-  background-image: linear-gradient(to bottom, #65A0CC, #8eb5d1);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  text-shadow: 4px 2px 4px #474347;
-  -webkit-box-shadow: 5px 5px 6px #666666;
-  -moz-box-shadow: 5px 5px 6px #666666;
-  box-shadow: 5px 5px 6px #666666;
-  font-family: Palatino;
-  color: #ffffff;
-  font-size: 50px;
-  padding: 10px 20px 10px 20px;
-  margin: 100px;
+  margin: 5px;
   text-decoration: none;
 }
 
@@ -65,12 +46,14 @@
 .full::after {
   content: "";
   background: url(twitter.png);
-  opacity: 0.45;
-  top: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  top: 150px;
   left: 0;
-  bottom: 0;
+  bottom: -850px;
   right: 0;
   position: absolute;
-
-  z-index: -1;   
+  z-index: -1;
+   
 }
