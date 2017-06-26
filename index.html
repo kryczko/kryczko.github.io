@@ -1,69 +1,26 @@
-<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="buttons.css">
-</head>
-<body>
-
-
-<div class="logo">
-	<img class="logoimg" src="logo.png" />
-</div>
-<div class="full">
-	<div class="intro"> 
-		<div>
-			<p> #k@ is a dynamical network simulation tool designed to model the growth of and information propagation within an online social network. It is an agent-based, kinetic Monte Carlo engine capable of simulating online networks such as Facebook, Twitter, LinkedIn, etc. The name #k@ comes from hashKAT which stands for the Kinetic Analysis of Twitter. The 'hash' comes from one of the things that Twitter has made famous, hashtags.<br><br>
-
-	#k@ incorporates all elements of online social networks including multiple user profiles (e.g. standard users, organizations, celebrities, and bots), user messaging, trending topics, and advertising. Agents within the network make decisions (e.g. follow, unfollow, broadcast, and rebroadcast) based on a variety of user defined factors including geography, political affiliation, musical interests, and humour.<br><br>
-
-	#k@ allows for simulation of a realistic online social network, enabling users to test hypotheses for growth mechanisms and scenarios for information propagation. As it solves the forward problem, #k@ can be used with Big Data analytics tools to test data collection protocols and ensure inverse model validity.
-			</p>
-		</div>
-	</div>
-
-
-	<div class="page"> 
-		<div>
-			<a class="btn" href="hashkat.2015.06.24.tar.gz"> Stable version</a>
-		</div>
-		<div>
-		<a class="btn" href="http://www.github.com/hashkat/hashkat">Current version</a>
-		</div>
-		<div>
-		<a class="btn" href="http://docs.hashkat.org">Documentation</a>
-		</div>
-	</div>
-
-	<p class="title"> Want to learn more about the contributors? Check out our Github/web pages.</p>
-
-
-	<div class="page"> 
-		<div>
-			<a class="smallbtn" href="http://www.github.com/kryczko">Kevin Ryczko</a>
-		</div>
-		<div>
-		<a class="smallbtn" href="http://www.github.com/ludamad">Adam Domurad</a>
-		</div>
-		<div>
-		<a class="smallbtn" href="http://faculty.uoit.ca/itamblyn">Isaac Tamblyn</a>
-		</div>
-		<div>
-		<a class="smallbtn" href="http://www.github.com/nbuhagiar">Nick Buhagiar</a>
-		</div>
-		<div>
-		<a class="smallbtn" href="http://www.github.com/arminms">Armin Sobhani</a>
-		</div>
-	</div>
-</div>
-
-	
-
-<div class="footer"> 
-	<div>
-		<p> #k@ was developed by K. Ryczko, A. Domurad, and I. Tamblyn.
-		</p>
-	</div>
-</div>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Kevin Ryczko</title>
+    <link rel="stylesheet" type="text/css" href="styles/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <link href='styles/photon-0.1.2-alpha/dist/css/photon.css' rel='stylesheet' type='text/css'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+  </head>
+  <body>
+    <div id="app" />
+    <script src="bundle.js" type="text/javascript"></script>
+  </body>
 </html>

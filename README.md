@@ -1,3 +1,0 @@
-kryczko.github.io
-=================
-webpage
