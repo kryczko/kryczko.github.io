@@ -1,194 +1,60 @@
-
 <!DOCTYPE html>
-<html class="no-js" lang="en" data-content_root="../">
-  <head>
-    <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light dark" />
-    
-    <meta name="docsearch:name" content="Kevin Ryczko, PhD" />
-    <meta name="docsearch:package_type" content="" />
-    <meta name="docsearch:release" content="1.0" />
-    <meta name="docsearch:version" content="" />
-    
-      <meta name="theme-color" content="#0DCAF0" />
-    
-    
-      <title>Blog &mdash; Kevin Ryczko, PhD 1.0 documentation</title>
-    
-    <link rel="canonical" href="blog/blog" />
-      <link rel="icon" href="../_static/favicon.ico" />
-          <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8e8a900e" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="../_static/sphinx-nefertiti-default.min.css?v=289d8db7" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="../_static/fonts/nunito/stylesheet.css?v=abf98f06" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="../_static/fonts/ubuntu-sans-mono/stylesheet.css?v=8616a587" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="../_static/pygments-dark.css?v=2de69186" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="../_static/pygments-light.css?v=970f37b1" /><!-- add (1) -->
-          <link rel="stylesheet" type="text/css" href="../_static/bootstrap-icons.min.css?v=44730005" /><!-- add (1) -->
-        <link rel="index" title="Index" href="../genindex.html" />
-        <link rel="search" title="Search" href="../search.html" />
-        <link rel="top" title="Kevin Ryczko, PhD 1.0 documentation" href="#" />
-        <link rel="next" title="Research" href="../research/research.html" />
-        <link rel="prev" title="About me" href="../index.html" />
-    <style>
-      :root {
-        --nftt-body-font-family: "Nunito", var(--nftt-font-sans-serif) !important;
-        --nftt-font-monospace: "Ubuntu Sans Mono", var(--nftt-font-family-monospace) !important;
-        --nftt-project-name-font: var(--nftt-body-font-family);
-        --nftt-documentation-font: var(--nftt-body-font-family);
-        --nftt-doc-headers-font: "Georgia", var(--nftt-documentation-font);}
-
-      h1 *,
-      h2 *,
-      h3 *,
-      h4 *,
-      h5 *,
-      h6 * {
-        font-size: inherit;
-      }
-
-      .light pre,
-      .dark pre {
-        line-height: var(--nftt-pre-line-height, 140%);
-      }
-    </style>
+<html lang="en" data-accent-color="violet" data-content_root="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Blog - Kevin Ryczko, PhD 1.0 documentation</title><link rel="shortcut icon" href="../_static/favicon.ico"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Research" href="../research/research.html" /><link rel="prev" title="About me" href="../index.html" /><script>
+    function setColorMode(t){let e=document.documentElement;e.setAttribute("data-color-mode",t);let a=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,s=t;"auto"===t&&(s=a?"dark":"light"),"light"===s?(e.classList.remove("dark"),e.classList.add("light")):(e.classList.remove("light"),e.classList.add("dark"))}
+    setColorMode(localStorage._theme||"auto");
+  </script><link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=e1a1ceaf" />
+    <link rel="stylesheet" type="text/css" href="../_static/shibuya.css?v=14737038" />
+    <link media="print" rel="stylesheet" type="text/css" href="../_static/print.css?v=20ff2c19" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --sy-f-text: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
+  --sy-f-heading: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
+}
+</style>
+    <meta property="og:type" content="website"/><meta property="og:title" content="Blog"/>
+    <meta name="twitter:card" content="summary"/>
   </head>
-  <body>
-    <div id="back-to-top-container" class="position-fixed start-50 translate-middle-x">
-      <button id="back-to-top" type="button" class="d-none btn btn-neutral btn-sm shadow px-4" data-bs-toggle="button">Back to top</button>
-    </div>
-    <header id="snftt-nav-bar" class="navbar navbar-expand-xl navbar-dark nftt-navbar flex-column fixed-top">
-      <div class="skip-links container-fluid visually-hidden-focusable overflow-hidden justify-content-start flex-grow-1">
-        <div class="border-bottom mb-2 pb-2 w-100">
-          <a class="d-none d-md-inline-flex p-2 m-1" href="#sidebar-filter">Skip to index filter</a>
-          <a class="d-inline-flex p-2 m-1" href="#content">Skip to main content</a>
-        </div>
-      </div>
-      <nav class="container-xxl nftt-gutter flex-nowrap" aria-label="Main navigation">
-        <div class="nftt-navbar-toggler">
-          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-label="Toggle documentation navigation">
-            <i class="bi bi-list"></i>
-          </button>
-        </div>
-          <a href="../index.html"
-             class="navbar-brand"
-          ><span class="brand-text">Kevin Ryczko, PhD</span><span class="brand-short-text">Kevin Ryczko, PhD</span></a>
-        
-        
-        <div class="d-flex d-xl-none">
-          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttSearch" aria-controls="nfttSearch" aria-label="Search">
-            <i class="bi bi-search"></i>
-          </button>
-          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttNavbar" aria-controls="nfttNavbar" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-        </div>
-        
-<div class="offcanvas-xl offcanvas-end flex-grow-1" tabindex="-1" id="nfttSearch" aria-labelledby="nfttSearchOffcanvasLabel" data-bs-scroll="true">
-  <div class="offcanvas-header px-4 pb-0">
-    <h5 class="offcanvas-title fw-bold" id="nfttSearchOffcanvasLabel">Search the documentation</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#nfttSearch"></button>
-  </div>
-  <div class="offcanvas-body p-4 pt-0 p-xl-0 ps-xl-4">
-    <hr class="d-xl-none text-white-50">
-    <ul class="navbar-nav flex-row align-items-center flex-wrap ms-md-auto">
-      <li class="nav-item col-12 col-xl-auto">
-        <form id="nftt-search-form" action="../search.html" method="get">
-          <div class="input-group">
-            <input type="text" name="q" class="form-control search-input" placeholder="Search" aria-label="Search" aria-describedby="button-search">
-            <input type="hidden" name="check_keywords" value="yes" />
-            <input type="hidden" name="area" value="default" />
-            <button class="btn btn-primary" type="submit" id="button-search" aria-label="Search"><i class="bi bi-search"></i></button>
-          </div>
-        </form>
-      </li>
-    </ul>
-  </div>
-</div>
-
-        <div class="offcanvas-xl offcanvas-end" tabindex="-1" id="nfttNavbar" aria-labelledby="nfttNavbarOffcanvasLabel" data-bs-scroll="true">
-          <div class="offcanvas-header px-4 pb-0">
-            <div class="offcanvas-title navbar-brand" id="nfttNavbarOffcanvasLabel"><span class="brand-short-text">Kevin Ryczko, PhD</span></div>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#nfttNavbar"></button>
-          </div>
-          <div class="offcanvas-body p-4 pt-0 p-xl-0 px-xl-3">
-            <hr class="d-xl-none text-white-50">
-            <ul class="navbar-nav flex-row align-items-center flex-wrap ms-lg-auto">
-              
-              
-              
-              
-              
-              <!-- lightdark-dropdown.html -->
-<li class="nav-item dropdown">
-  <a class="nav-link d-flex py-2 px-0 px-xl-2 dropdown-toggle align-items-center" id="snftt-luz" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" aria-label="Change appearance">
-    <i class="bi bi-circle-half" data-snftt-luz-icon-active></i>
-    <span id="snftt-luz-text" class="d-xl-none ms-2">Change appearance</span>
-  </a>
-  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="snftt-luz-text">
-    <li>
-      <h6 class="dropdown-header">Change appearance</h6>
-    </li>
-    <li>
-      <a class="dropdown-item d-flex align-items-center" data-snftt-luz="light" href="#" aria-pressed="false">
-        <span>
-          <i class="bi bi-sun" data-snftt-luz-icon="light"></i>
-        </span>
-        <span class="ms-3">Light</span>
-        <i class="bi bi-check ms-auto"></i>
-      </a>
-    </li>
-    <li>
-      <a class="dropdown-item d-flex align-items-center" data-snftt-luz="dark" href="#" aria-pressed="false">
-        <span>
-          <i class="bi bi-moon-stars" data-snftt-luz-icon="dark"></i>
-        </span>
-        <span class="ms-3">Dark</span>
-        <i class="bi bi-check ms-auto"></i>
-      </a>
-    </li>
-    <li>
-      <a class="dropdown-item current d-flex align-items-center" data-snftt-luz="default" href="#" aria-pressed="false">
-        <span>
-          <i class="bi bi-circle-half" data-snftt-luz-icon="default"></i>
-        </span>
-        <span class="ms-3">Automatic</span>
-        <i class="bi bi-check ms-auto"></i>
-      </a>
-    </li>
-  </ul>
-</li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<body><div class="sy-head">
+  <div class="sy-head-blur"></div>
+  <div class="sy-head-inner sy-container mx-auto">
+    <a class="sy-head-brand" href="../index.html">
       
-    </header>
-
-    <div class="container-fluid flex-grow-1">
-      <div class="nftt-gutter nftt-page">
-        <aside class="nftt-sidebar ">
-          <div class="nftt-sidebar-content">
-            
-            <div class="title d-none d-xl-none">
-              <i class="bi bi-book"></i>&nbsp;&nbsp;<span>Index</span>
-            </div>
-            <div id="sidebar" tabindex="-1" class="offcanvas-xl offcanvas-start" aria-labelledby="nfttSidebarOffcanvasLabel">
-                <!-- sidebartemplate: "globaltoc.html" --><div class="offcanvas-header border-bottom">
-  <h5 class="offcanvas-title fw-bold" id="nfttSidebarOffcanvasLabel">
-    Index
-  </h5>
-  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#sidebar"></button>
-</div>
-
-<div class="offcanvas-body">
-  <nav class="toc" aria-label="Main menu">
-    <div class="mb-3 p-1 pb-4 border-bottom">
-      <input id="sidebar-filter" type="text" name="filter" class="form-control form-control-sm" placeholder="index filter" aria-label="index filter">
+      
+      <strong>Kevin Ryczko, PhD</strong>
+    </a>
+    <div class="sy-head-nav" id="head-nav">
+      <nav class="sy-head-links"></nav>
+      <div class="sy-head-extra flex items-center print:hidden"><form class="searchbox flex items-center" action="../search.html" method="get">
+  <input type="text" name="q" placeholder="Search" />
+  <kbd>/</kbd>
+</form><div class="sy-head-socials"></div></div>
     </div>
-    <ul class="current">
+    <div class="sy-head-actions flex items-center shrink-0 print:hidden"><button class="js-theme theme-switch flex items-center"
+data-aria-auto="Switch to light color mode"
+data-aria-light="Switch to dark color mode"
+data-aria-dark="Switch to auto color mode">
+<i class="i-lucide theme-icon"></i>
+</button><button class="md:hidden flex items-center js-menu" aria-label="Menu" type="button" aria-controls="head-nav" aria-expanded="false">
+        <div class="hamburger">
+          <span class="hamburger_1"></span>
+          <span class="hamburger_2"></span>
+          <span class="hamburger_3"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="sy-page sy-container flex mx-auto">
+  <aside id="lside" class="sy-lside md:w-72 md:shrink-0 print:hidden">
+    <div class="sy-lside-inner md:sticky">
+      <div class="sy-scrollbar p-6">
+        <div class="globaltoc" data-expand-depth="0"><ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Blog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../research/research.html">Research</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../research/pubs.html">Publications</a></li>
@@ -197,117 +63,93 @@
 <li class="toctree-l1"><a class="reference internal" href="../problems/problems.html">Problems</a></li>
 </ul>
 
-  </nav>
-  <template data-toggle-item-template>
-    <button class="btn btn-sm btn-link toctree-expand" type="button">
-      <i class="bi bi-caret-right"></i>
-      <span class="visually-hidden">Toggle menu contents</span>
-    </button>
-  </template>
-</div>
-            </div>
-            
-          </div>
-        </aside>
-        <article id="content" class="nftt-content" role="main">
-          <div><div class="d-flex flex-row justify-content-between">
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="../index.html">Start</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Blog</li>
-    </ol>
-  </nav>
-  
-    <div class="fs085">
-        <a href="../_sources/blog/blog.rst.txt"  rel="nofollow" aria-label="Show source of this document"><i class="bi bi-file-earmark-code"></i></a>
+        </div>
+      </div>
     </div>
-  
-</div>
-            
-    <section id="blog">
+  </aside>
+  <div class="lside-overlay js-menu" role="button" aria-label="Close left sidebar" aria-controls="lside" aria-expanded="false"></div>
+  <aside id="rside" class="sy-rside pb-3 w-64 shrink-0 order-last">
+    <button class="rside-close js-menu xl:hidden" aria-label="Close Table of Contents" type="button" aria-controls="rside" aria-expanded="false">
+      <i class="i-lucide close"></i>
+    </button>
+    <div class="sy-scrollbar sy-rside-inner px-6 xl:top-16 xl:sticky xl:pl-0 pt-6 pb-4"><div id="ethical-ad-placement" data-ea-publisher="readthedocs"></div></div>
+  </aside>
+  <div class="rside-overlay js-menu" role="button" aria-label="Close Table of Contents" aria-controls="rside" aria-expanded="false"></div>
+  <main class="sy-main w-full max-sm:max-w-full print:pt-6">
+<div class="sy-breadcrumbs" role="navigation">
+  <div class="sy-breadcrumbs-inner flex items-center">
+    <div class="md:hidden mr-3">
+      <button class="js-menu" aria-label="Menu" type="button" aria-controls="lside" aria-expanded="false">
+        <i class="i-lucide menu"></i>
+      </button>
+    </div>
+    <ol class="flex-1" itemscope itemtype="https://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="../index.html"><span itemprop="name">Kevin Ryczko, PhD</span></a>
+        <span>/</span>
+        <meta itemprop="position" content="1" />
+      </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <strong itemprop="name">Blog</strong>
+        <meta itemprop="position" content="2" />
+      </li></ol>
+    <div class="xl:hidden ml-1">
+      <button class="js-menu" aria-label="Show table of contents" type="button" aria-controls="rside"
+        aria-expanded="false">
+        <i class="i-lucide outdent"></i>
+      </button>
+    </div>
+  </div>
+</div><div class="flex flex-col break-words justify-between">
+      <div class="min-w-0 max-w-6xl px-6 pb-6 pt-8 xl:px-12">
+        <article class="yue" role="main">
+          <section id="blog">
 <h1>Blog<a class="headerlink" href="#blog" title="Link to this heading">¶</a></h1>
 <a class="reference internal image-reference" href="../_images/under_construction.jpeg"><img alt="Under construction" class="align-left" src="../_images/under_construction.jpeg" style="width: 200px;" />
 </a>
 <p>Under construction.</p>
 </section>
 
-</div>
-        </article>
-        <aside class="nftt-toc my-3">
-          
-        </aside>
+        </article><button class="back-to-top" type="button">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+  </svg>
+  <span>Back to top</span>
+</button><div class="navigation flex print:hidden"><div class="navigation-prev">
+    <a href="../index.html">
+      <i class="i-lucide chevron-left"></i>
+      <div class="page-info">
+        <span>Previous</span><div class="title">Home</div></div>
+    </a>
+  </div><div class="navigation-next">
+    <a href="../research/research.html">
+      <div class="page-info">
+        <span>Next</span>
+        <div class="title">Research</div>
       </div>
+      <i class="i-lucide chevron-right"></i>
+    </a>
+  </div></div></div>
     </div>
-
-    <footer class="nftt-footer">
-      <nav id="paginator" class="py-4" aria-label="Documentation navigation">
-    <div class="container">
-      <ul class="pagination justify-content-between mb-0"><li class="d-flex page-item">
-            <a href="../index.html" class="d-flex px-5 align-items-end" rel="prev" aria-label="Previous page: About me">
-              <span class="prev-page"><i class="bi bi-caret-left"></i></span>
-              <div class="d-none d-sm-flex flex-column">
-                <span class="text-small text-start text-muted">Previous</span>
-                <span class="underline">About me</span>
-              </div>
-            </a>
-          </li>
-        <li class="d-flex page-item ms-auto">
-            <a href="../research/research.html" class="d-flex px-5 align-items-end" rel="next" aria-label="Next page: Research">
-              <div class="d-flex flex-column">
-                <span class="text-small text-end text-start text-muted">Next</span>
-                <span class="underline">Research</span>
-              </div>
-              <span class="next-page"><i class="bi bi-caret-right"></i></span>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
-
-      <div class="py-5 px-4 px-md-3">
-  <div class="container">
+  </main>
+</div>
+<footer class="sy-foot">
+  <div class="sy-foot-inner sy-container mx-auto">
+    <div class="sy-foot-reserved md:flex justify-between items-center">
+      <div class="sy-foot-copyright"><p>2025, Kevin Ryczko</p>
+  
+  <p>
+    Made with
     
-
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <a class="brand-text d-inline-flex align-items-center mb-2 text-decoration-none" href="/" aria-label="Kevin Ryczko, PhD">
-          <span class="fs-6 fw-bold">Kevin Ryczko, PhD</span>
-        </a>
-        
-          <ul class="list-unstyled small text-muted">
-            <li>2025, Kevin Ryczko</li>
-          </ul>
-        
-        <div class="built-with pt-2">
-          Built with <a href="http://sphinx-doc.org">Sphinx 8.2.3</a> and <a href="https://github.com/danirus/sphinx-nefertiti">Nefertiti 0.9.0</a>
-        </div>
-      </div>
+    <a href="https://www.sphinx-doc.org/">Sphinx</a> and
+    
+    <a href="https://shibuya.lepture.com">Shibuya theme</a>.
+  </p>
+</div>
+      <div class="sy-foot-socials"></div>
     </div>
   </div>
-</div>
-    </footer>
-
-    <div class="modal modal-xl fade" id="nftt-modal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen-xxl-down modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="nftt-modal-title"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" id="nftt-modal-body">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-    <script src="../_static/documentation_options.js?v=f2a433a1"></script>
-    <script src="../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/docs-versions.js?v=08b0cbfb"></script>
-    <script src="../_static/sphinx-nefertiti.min.js?v=8f0f64d1"></script>
-    <script src="../_static/bootstrap.bundle.min.js?v=e96d90d1"></script>
-  </body>
+</footer>
+      <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/shibuya.js?v=c1cf1a6b"></script></body>
 </html>
