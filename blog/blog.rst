@@ -1,4 +1,9 @@
 Blog
 ====
 
-This is the blog section of Kevin Ryczko, PhD's website. Here you will find articles and updates related to my research and interests.
+.. image:: ../images/under_construction.jpeg
+   :alt: Under construction
+   :width: 200px
+   :align: left
+
+Under construction.

@@ -14,7 +14,7 @@ About me
 I am currently an AI Lead in the Drug Discovery team at SandboxAQ. My research focuses on applying machine learning and artificial intelligence techniques to solve complex problems in drug discovery and development.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    blog/blog
    research/research

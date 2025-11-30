@@ -1,4 +1,9 @@
 Problems
 ================
 
-Here are some problems I've worked on or am currently working on.
+.. image:: ../images/under_construction.jpeg
+   :alt: Under construction
+   :width: 200px
+   :align: left
+
+Under construction.
