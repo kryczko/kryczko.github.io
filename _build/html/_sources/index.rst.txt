@@ -11,7 +11,7 @@ About me
    :width: 200px
    :align: left
 
-I am currently an AI Lead in the Drug Discovery team at SandboxAQ. My research focuses on applying machine learning and artificial intelligence techniques to solve complex problems in drug discovery and development.
+Kevin Ryczko is currently an AI Lead in the Drug Discovery team at SandboxAQ. His research focuses on applying machine learning and artificial intelligence techniques to solve complex problems in drug discovery and development.
 
 .. toctree::
    :maxdepth: 1
