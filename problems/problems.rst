@@ -1,9 +1,10 @@
 Problems
 ================
 
-.. image:: ../images/under_construction.jpeg
-   :alt: Under construction
-   :width: 200px
-   :align: left
+Here are some physics problems that I have worked on.
 
-Under construction.
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   griffiths/griffiths
