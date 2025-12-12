@@ -5,3 +5,4 @@ Chapter 2
    :maxdepth: 2
 
    problem_2_1
+   problem_2_2

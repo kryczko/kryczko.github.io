@@ -8,6 +8,8 @@ Kevin Ryczko is a researcher and machine-learning scientist. He obtained a **Ph.
 
 Early in his academic career, he conducted research on **liquid water-metal interfaces**, using *ab initio* electronic structure methods (density functional theory, first-principles molecular dynamics) to study how water behaves at metal surfaces — relevant for understanding water electrolysis and nanoscale energy/chemistry phenomena. As an undergrad, he even built a simulation package called “hashkat” to study how **online social networks** evolve, how connections form, and how information propagates.
 
+Kevin Ryczko has also contributed to the field of **deep learning for physical sciences**. During his PhD, he developed machine learning models to predict properties of molecular systems, such as molecular dipole moments and potential energy surfaces. His work demonstrated how ML can accelerate simulations while maintaining accuracy, enabling the study of larger systems and longer timescales.
+
 🧑‍💻 Current role & work in AI / Materials / Drug Design
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

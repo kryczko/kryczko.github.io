@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" data-accent-color="violet" data-content_root="../../">
+<html lang="en" data-accent-color="violet" data-content_root="../../../">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Introduction to Quantum Mechanics - David J. Griffiths - Kevin Ryczko, PhD 1.0 documentation</title><link rel="shortcut icon" href="../../_static/favicon.ico"/><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Chapter 1" href="chapter_1.html" /><link rel="prev" title="Problems" href="../problems.html" /><script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Problem 2.2 - Kevin Ryczko, PhD 1.0 documentation</title><link rel="shortcut icon" href="../../../_static/favicon.ico"/><link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="prev" title="Problem 2.1" href="problem_2_1.html" /><script>
     function setColorMode(t){let e=document.documentElement;e.setAttribute("data-color-mode",t);let a=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,s=t;"auto"===t&&(s=a?"dark":"light"),"light"===s?(e.classList.remove("dark"),e.classList.add("light")):(e.classList.remove("light"),e.classList.add("dark"))}
     setColorMode(localStorage._theme||"auto");
-  </script><link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=e1a1ceaf" />
-    <link rel="stylesheet" type="text/css" href="../../_static/shibuya.css?v=14737038" />
-    <link media="print" rel="stylesheet" type="text/css" href="../../_static/print.css?v=20ff2c19" />
+  </script><link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=e1a1ceaf" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/shibuya.css?v=14737038" />
+    <link media="print" rel="stylesheet" type="text/css" href="../../../_static/print.css?v=20ff2c19" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,20 +17,20 @@
   --sy-f-heading: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
 }
 </style>
-    <meta property="og:type" content="website"/><meta property="og:title" content="Introduction to Quantum Mechanics - David J. Griffiths"/>
+    <meta property="og:type" content="website"/><meta property="og:title" content="Problem 2.2"/>
     <meta name="twitter:card" content="summary"/>
   </head>
 <body><div class="sy-head">
   <div class="sy-head-blur"></div>
   <div class="sy-head-inner sy-container mx-auto">
-    <a class="sy-head-brand" href="../../index.html">
+    <a class="sy-head-brand" href="../../../index.html">
       
       
       <strong>Kevin Ryczko, PhD</strong>
     </a>
     <div class="sy-head-nav" id="head-nav">
       <nav class="sy-head-links"></nav>
-      <div class="sy-head-extra flex items-center print:hidden"><form class="searchbox flex items-center" action="../../search.html" method="get">
+      <div class="sy-head-extra flex items-center print:hidden"><form class="searchbox flex items-center" action="../../../search.html" method="get">
   <input type="text" name="q" placeholder="Search" />
   <kbd>/</kbd>
 </form><div class="sy-head-socials"></div></div>
@@ -55,21 +55,21 @@ data-aria-dark="Switch to auto color mode">
     <div class="sy-lside-inner md:sticky">
       <div class="sy-scrollbar p-6">
         <div class="globaltoc" data-expand-depth="0"><ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../blog/blog.html">Blog</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../../../blog/blog.html">Blog</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../research/research.html">Research</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../research/pubs.html">Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../research/research.html">Research</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../research/pubs.html">Publications</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="../problems.html">Problems</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction to Quantum Mechanics - David J. Griffiths</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="chapter_1.html">Chapter 1</a><ul class="simple">
+<li class="toctree-l1 current"><a class="reference internal" href="../../problems.html">Problems</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../griffiths.html">Introduction to Quantum Mechanics - David J. Griffiths</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../chapter_1.html">Chapter 1</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="chapter_2/chapter_2.html">Chapter 2</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="chapter_2/problem_2_1.html">Problem 2.1</a></li>
-<li class="toctree-l4"><a class="reference internal" href="chapter_2/problem_2_2.html">Problem 2.1</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="chapter_2.html">Chapter 2</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="problem_2_1.html">Problem 2.1</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Problem 2.2</a></li>
 </ul>
 </li>
 </ul>
@@ -99,16 +99,24 @@ data-aria-dark="Switch to auto color mode">
       </button>
     </div>
     <ol class="flex-1" itemscope itemtype="https://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a itemprop="item" href="../../index.html"><span itemprop="name">Kevin Ryczko, PhD</span></a>
+        <a itemprop="item" href="../../../index.html"><span itemprop="name">Kevin Ryczko, PhD</span></a>
         <span>/</span>
         <meta itemprop="position" content="1" />
       </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a itemprop="item" href="../problems.html"><span itemprop="name">Problems</span></a>
+        <a itemprop="item" href="../../problems.html"><span itemprop="name">Problems</span></a>
         <span>/</span>
         <meta itemprop="position" content="2" />
       </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <strong itemprop="name">Introduction to Quantum Mechanics - David J. Griffiths</strong>
+        <a itemprop="item" href="../griffiths.html"><span itemprop="name">Introduction to Quantum Mechanics - David J. Griffiths</span></a>
+        <span>/</span>
         <meta itemprop="position" content="3" />
+      </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="chapter_2.html"><span itemprop="name">Chapter 2</span></a>
+        <span>/</span>
+        <meta itemprop="position" content="4" />
+      </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <strong itemprop="name">Problem 2.2</strong>
+        <meta itemprop="position" content="5" />
       </li></ol>
     <div class="xl:hidden ml-1">
       <button class="js-menu" aria-label="Show table of contents" type="button" aria-controls="rside"
@@ -120,20 +128,17 @@ data-aria-dark="Switch to auto color mode">
 </div><div class="flex flex-col break-words justify-between">
       <div class="min-w-0 max-w-6xl px-6 pb-6 pt-8 xl:px-12">
         <article class="yue" role="main">
-          <section id="introduction-to-quantum-mechanics-david-j-griffiths">
-<h1>Introduction to Quantum Mechanics - David J. Griffiths<a class="headerlink" href="#introduction-to-quantum-mechanics-david-j-griffiths" title="Link to this heading">¶</a></h1>
+          <section id="problem-2-2">
+<h1>Problem 2.2<a class="headerlink" href="#problem-2-2" title="Link to this heading">¶</a></h1>
+<p>Show that <span class="math notranslate nohighlight">\(E\)</span> must exceed the minimum value of <span class="math notranslate nohighlight">\(V(x)\)</span>, for every normalizable solution of the time-independent Schrödinger equation. What is the classical analog to this statement? <em>Hint</em>: Rewrite Equation 2.5 in the form</p>
+<div class="math-wrapper docutils container">
+<div class="math notranslate nohighlight">
+\[\frac{d^2 \psi}{dx^2} = \frac{2m}{\hbar^2} [V(x)-E] \psi;\]</div>
+</div>
+<p>if <span class="math notranslate nohighlight">\(E &lt; V_{min}\)</span>, then <span class="math notranslate nohighlight">\(\psi\)</span> and its second derivative always have the <em>same sign</em> – argue that such a function cannot be normalized.</p>
+<hr class="docutils" />
+<p><strong>Solution:</strong></p>
 <div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="chapter_1.html">Chapter 1</a><ul class="simple">
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="chapter_2/chapter_2.html">Chapter 2</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="chapter_2/problem_2_1.html">Problem 2.1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="chapter_2/problem_2_2.html">Problem 2.1</a></li>
-</ul>
-</li>
-</ul>
 </div>
 </section>
 
@@ -143,18 +148,10 @@ data-aria-dark="Switch to auto color mode">
   </svg>
   <span>Back to top</span>
 </button><div class="navigation flex print:hidden"><div class="navigation-prev">
-    <a href="../problems.html">
+    <a href="problem_2_1.html">
       <i class="i-lucide chevron-left"></i>
       <div class="page-info">
-        <span>Previous</span><div class="title">Problems</div></div>
-    </a>
-  </div><div class="navigation-next">
-    <a href="chapter_1.html">
-      <div class="page-info">
-        <span>Next</span>
-        <div class="title">Chapter 1</div>
-      </div>
-      <i class="i-lucide chevron-right"></i>
+        <span>Previous</span><div class="title">Problem 2.1</div></div>
     </a>
   </div></div></div>
     </div>
@@ -177,8 +174,9 @@ data-aria-dark="Switch to auto color mode">
     </div>
   </div>
 </footer>
-      <script src="../../_static/documentation_options.js?v=f2a433a1"></script>
-      <script src="../../_static/doctools.js?v=9bcbadda"></script>
-      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-      <script src="../../_static/shibuya.js?v=c1cf1a6b"></script></body>
+      <script src="../../../_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../../_static/shibuya.js?v=c1cf1a6b"></script>
+      <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></body>
 </html>
