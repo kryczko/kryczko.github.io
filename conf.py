@@ -9,7 +9,7 @@
 project = 'Kevin Ryczko, PhD'
 copyright = '2025, Kevin Ryczko'
 author = 'Kevin Ryczko'
-release = '1.0'
+release = ''
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
